@@ -1,2 +1,13 @@
-# Marksheet
-Marksheet
+name = input("enter your name?:")
+father_name = input("enter your father name?:")
+age = input("enter your age?:")
+maths_marks = int(input("how many marks you get in maths?:"))
+Urdu_marks = int(input("how many marks you get in urdu?:"))
+english_marks = int(input("how many marks you get in english?:"))
+physics_marks = int(input("how many marks you get in physics?:"))
+total_marks = int(maths_marks+Urdu_marks+english_marks+physics_marks)
+print("The student receive a total of:")
+print(total_marks) 
+percentage = int(total_marks * 100/400)
+print("The student receive a percentage of:")
+print(percentage)
